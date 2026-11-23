@@ -29,6 +29,8 @@ Environment variables (set in Vercel, never committed):
 - `TEACHER_CODE` – the code the teacher types to enter teacher mode
 - `BLOB_READ_WRITE_TOKEN` – added automatically when a Blob store is connected to the project
 
+The Vercel project is connected to this repo: every push to `main` deploys to production automatically. Manual deploy is still possible:
+
 ```bash
 npx vercel --prod
 ```
